@@ -1,24 +1,47 @@
+import Escolha from './Escolha';
 import './styles/index.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-function App() {
-
-
-
-
-  return (
-    <div>
+function App() { 
+ <div className='pagina'>
       <header>
-        <h1 className="titulo">Jogo de Adivinhação</h1>
+        <h1 className="titulo">Jogo da Adivinhação</h1>
       </header>
+</div>
 
-    <div className='div-botao'>
-       <button><a href="jogo">Jogar</a></button>
-    </div>
+return (
+   <BrowserRouter>
+   <Routes>
+    <Route path='/' element={<Home />}/>
+    <Route path='/Escolha' element={<Escolha />}/>
+   </Routes>
+   </BrowserRouter>
 
-    </div>
-
-)
-
+    );
 }
 
-export default App
+
+function Home() {
+  return (
+      <div className='pagina'>
+      <header>
+        <h1>Jogo da Adivinhação</h1>
+      </header>
+
+      <main>
+        <Link to="/Escolha">
+          <button>Jogar</button>
+        </Link>
+      </main>
+
+      <footer>
+        <p>Direitos reservados</p>
+      </footer>
+    </div>
+  );
+}
+
+
+
+export default App;

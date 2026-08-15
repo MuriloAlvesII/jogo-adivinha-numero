@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #363467 0%, rgba(30, 29, 79, 0.8) 100%);
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.div1{
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(47, 34, 53);
+    color: white;
+    font-family: monospace;
+    padding: 50px;
+}
+
+.div-botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.div-botao button{
+    width: 250px;
+    height: 80px; 
+
+    background-color: rgb(29, 28, 28);
+    color: #363467;
+
+    text-decoration: none;
+    border-radius: 20px;
+
+    border: none;
+    font-family: monospace;
+
+    cursor: pointer;
+    
+    
+    font-size: 24px;
+    transition: 0.3s;
+
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}

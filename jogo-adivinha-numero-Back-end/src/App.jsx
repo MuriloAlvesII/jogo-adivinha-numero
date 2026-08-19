@@ -1,7 +1,11 @@
+import React from 'react';
+import App from './App'
 import './styles/index.css'
+
 import IniciaJogo from './componentes/iniciajogo';
 
 function App() { 
+
 
   return (
       <div className='pagina'>
@@ -14,7 +18,7 @@ function App() {
       </main>
 
       <footer>
-        <p>© 2026 Jogo da Adivinhação. Todos os direitos reservados. Desenvolvedores:Pedro Emanuel e Murilo Alvez</p>
+        <p>Direitos reservados</p>
       </footer>
     </div>
   );

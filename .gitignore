@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+jogo-adivinha-numero-Back-end
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

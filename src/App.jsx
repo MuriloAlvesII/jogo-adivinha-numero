@@ -1,5 +1,6 @@
 import './styles/index.css'
 import IniciaJogo from './componentes/iniciajogo';
+import Rodape from './componentes/Rodape';
 
 function App() { 
 
@@ -14,7 +15,7 @@ function App() {
       </main>
 
       <footer>
-        <p>© 2026 Jogo da Adivinhação. Todos os direitos reservados. Desenvolvedores:Pedro Emanuel e Murilo Alvez</p>
+          <Rodape />
       </footer>
     </div>
   );
